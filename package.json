@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/thembi-dali.lwc-l4mdl2fz",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve 3Qyj4QfnXQ8Oo0x4FWIQ --open"
+  }
+}
