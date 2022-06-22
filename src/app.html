@@ -1,8 +1,10 @@
 <template>
-    <lightning-input label="Enter a word">
-    </lightning-input>
-    <lightning-button label="Add" onclick={updateText}>
-    </lightning-button>
-    <hr />
-    {outputText} 
+    <label for="FieldSelect" class="slds-form-element__label slds-no-flex">
+        <abbr title="required" class="slds-required">*</abbr>//in case you want to mark required
+        Select Filter Condition
+    </label>
+    <select class="slds-select" name = "optionSelect" onchange={changeHandler} >
+        <option value="OPTION A">OPTION A</option>
+        <option value="OPTION B">OPTION B</option>
+    </select> 
 </template>
